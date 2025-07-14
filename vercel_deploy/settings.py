@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'deploy_demo.urls'
+ROOT_URLCONF = 'vercel_deploy.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'deploy_demo.wsgi.application'
+WSGI_APPLICATION = 'vercel_deploy.wsgi.application'
 
 
 # Database
